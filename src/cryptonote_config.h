@@ -9,9 +9,9 @@
 #define CRYPTONOTE_MAX_TX_SIZE                          1000000000
 #define CRYPTONOTE_PUBLIC_ADDRESS_TEXTBLOB_VER          0
 //TODO Currency-specific address prefix
-#define CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX        
+#define CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX         P
 //TODO Choose maturity period for your currency
-#define CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW            
+#define CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW            420
 #define CURRENT_TRANSACTION_VERSION                     1
 #define CURRENT_BLOCK_MAJOR_VERSION                     1
 #define CURRENT_BLOCK_MINOR_VERSION                     0
@@ -22,7 +22,7 @@
 //TODO Specify total number of available coins
 //TODO ((uint64_t)(-1)) equals to 18446744073709551616 coins
 //TODO or you can define number explicitly UINT64_C(858986905600000000)
-#define MONEY_SUPPLY                                   
+#define MONEY_SUPPLY                                    (100000)
 #define EMISSION_SPEED_FACTOR                           (18)
 
 //TODO Define number of blocks for block size median calculation
